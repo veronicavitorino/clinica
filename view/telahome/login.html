@@ -6,13 +6,14 @@
     <title>Acesso ao Sistema</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/utilities/font.css">
-
 </head>
+
 <body>
-    <form class="form" action="home.html">
+    <script src="/controller/login.js"></script>
+    <form class="form" id="formlogin">
         <div class="card">
             <div class="card-top">
-                <h2>Acesso ao Sistema</h2>
+                <h2>Acesso Sistema</h2>
             </div>
             <div class="card-group">
                 <label>Usuário</label>
@@ -26,10 +27,11 @@
                 <label><input type="checkbox">Lembre-me</label>
             </div>
             <div class="card-group">
-                <button type="submit" >Acessar</button>
+                <button type="button" onclick="javascript:Enviar()">Acessar</button>
         
             </div>
         </div>
     </form>
+    <p id="demo"></p>
 </body>
 </html>

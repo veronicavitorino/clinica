@@ -12,8 +12,12 @@ div.body{
    
 }
 div.footer{
-    position: static;
-   
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color: rgb(129, 119, 117);
+    text-align: center;
+    margin: auto;
 }
 div.logo{
     position: absolute;
