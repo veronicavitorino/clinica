@@ -1,0 +1,21 @@
+.operacao{
+    width: 3%;
+}
+.grid{
+    width: 98%;
+}
+.paginacao{
+    width: 400px;
+    position: absolute; 
+    left:50%;
+    margin: 0 0 0-200px;
+    height: 5px;
+    border-style: none;
+}
+.avancar{
+    text-align: right; 
+    border-left: none;
+}
+.voltar{ 
+    border-right: none;
+}

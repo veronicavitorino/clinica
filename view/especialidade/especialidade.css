@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.356);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 60px;
+    left: 30%;
+    border: solid rgb(201, 201, 201);
+}
+.form{
+    width: 100px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+h3 {
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.356);
+    background-color:rgb(201, 201, 201);
+    color: rgba(34, 48, 51, 0.842);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+    border: solid rgb(201, 201, 201);
+     
+}
+.caixa1 >label{
+    width: 100%;
+    color: rgb(51, 49, 49);
+    position: absolute;
+    top: 50%;
+    
+}
+.text{
+    outline: none;
+}
+.caixa1 > input{
+    background-color:rgb(201, 201, 201);
+    width: 73%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 47%;
+    left: 18%;
+    
+}
+button.salvar{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    outline: none;
+}
+button.voltar{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    outline: none;
+
+}
+
+

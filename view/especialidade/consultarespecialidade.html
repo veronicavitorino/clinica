@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Especialidades</title>
+    <link rel="stylesheet" href="consultar.css">
+    <link rel="stylesheet" href="/utilities/font.css">
+    <link rel="stylesheet" href="/view/especialidade/grid.css">
+    <script src="/controller/consultarespecialidade.js"></script>
+</head>
+<body>
+    <div class="desc">
+        <label>
+            <h2>Descrição: </h2>
+        </label>
+        <input type="text" name="descricao">
+    </div>
+    <div>
+        <button  class="pesquisar">Pesquisar</button> 
+        <button type="button" id="novaespecialidade" class="novo" onclick="javascript:novo()">Novo</button>
+    </div>
+
+    <form id="frmconsultarespecialidade">
+    <div class="table">
+        <table class="grid">
+            <tr >
+                <th>Descrição</th>  
+                <th class="operacao"></th>  
+                <th class="operacao"></th> 
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></a></td>
+                <td><a href="javascript:func()" onclick="javascript:confirmacao('1')"><img src="/view/telahome/image/delete.png" alt="Excluir"></a></td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></a></td>
+                <td><a href="#"><img src="/view/telahome/image/delete.png" alt="Excluir"></a></td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></a></td>
+                <td><a href="#"><img src="/view/telahome/image/delete.png" alt="Excluir"></a></td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></a></td>
+                <td><a href="#"><img src="/view/telahome/image/delete.png" alt="Excluir"></a></td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></a></td>
+                <td><a href="#"><img src="/view/telahome/image/delete.png" alt="Excluir"></a></td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></a></td>
+                <td><a href="#"><img src="/view/telahome/image/delete.png" alt="Excluir"></a></td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></a></td>
+                <td><a href="#"><img src="/view/telahome/image/delete.png" alt="Excluir"></a></td>
+            </tr>
+        </table>    
+        <br>
+        <table class="paginacao">
+            <td class="voltar"><a href="#"><img src="/view/telahome/image/voltar.png"></a></td>
+            <td class="avancar"><a href="#"><img src="/view/telahome/image/avancar.png"></a></td>
+        </table>
+    </div>
+</form>
+</body>
+</html>
