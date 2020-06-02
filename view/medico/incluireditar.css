@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+label.esquerda{
+    position: absolute;
+    top: 30px;
+    color: rgb(51, 49, 49); 
+  
+}
+label.direita{
+    position: absolute;
+    top: 35px;
+    color: rgb(51, 49, 49);
+    left: 55%;
+}
+input{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    outline: none;
+}
+input.crm{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 90px;
+    left: 5%;
+    outline: none;
+}
+input.cpf{
+    background-color: rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 30px;
+    left: 62%;
+    outline: none;
+}
+input.telefone{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 90px;
+    left: 62%;
+    outline: none;
+}
+.especialidades{
+    background-color: rgb(201, 201, 201);
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    float: auto;
+    position: absolute;
+    top: 40px;
+    left: 8%;
+    outline: none;
+}
+label.nome{
+    position: absolute;
+    top: 40px;
+    color: rgb(51, 49, 49);
+    left: 3%; 
+}
+button.adicionar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 50%;
+    top: 40px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+.interna{
+    background-color: rgb(243, 240, 240);
+    position: relative;
+    top: 150px;
+    height: 490px;
+    width: 98%;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+table, th, td{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(201, 201, 201);
+    color:rgba(34, 48, 51, 0.842);  
+}
+
+td{
+    padding: 10px;
+    width: 250px;
+}
+th{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.table{
+    
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+.excluir{
+    width: 3%;
+}
+.voltar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 30%;
+    top: 350px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+.avancar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 30%;
+    top: 350px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+.footer{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 65%;
+    top: 350px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);  
+}

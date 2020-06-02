@@ -13,9 +13,24 @@
     border-style: none;
 }
 .avancar{
-    text-align: right; 
-    border-left: none;
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 45%;
+    top: 600px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842); 
 }
 .voltar{ 
-    border-right: none;
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 45%;
+    top: 600px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842);  
 }

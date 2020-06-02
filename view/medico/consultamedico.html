@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Médicos</title>
+    <link rel="stylesheet" href="/view/medico/consultamedico.css">
+    <script src="/controller/consultamedico.js"></script>
+</head>
+<body>
+    <div class="desc">
+        <label>
+            <h2>Nome:</h2>
+            <br><br>
+            <h3>CRM:</h3>
+        </label>
+        <input type="text" name="nome">
+        <input class="crm" type="text" name="crm">
+    </div>
+    <div>
+        <button  type="button" class="pesquisar">Pesquisar</button> 
+        <button type="button" class="novo" onclick="javascript:novo()">Novo</button>
+    </div>
+    <form id="cadastrarmedico">
+        <div class="table">
+            <table class="grid">
+                <tr >
+                    <th>Nome</th>  
+                    <th class="tamanho">CPF</th>  
+                    <th class="tamanho">CRM</th> 
+                    <th class="tamanho">Telefone</th>
+                    <th class="edicao"></th>
+                    <th class="edicao"></th>
+                    
+                </tr>
+                <tr>
+                    <td>Ruth da Silva</td>
+                    <td>02145896312</td>
+                    <td>212152</td>
+                    <td>2520-3012</td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:confirmacao('Ruth da Silva')"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+                <tr>
+                    <td>Karine Flores</td>
+                    <td>02145896312</td>
+                    <td>212152</td>
+                    <td>2520-3012</td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:confirmacao('Karina Flores')"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+                <tr>
+                    <td>Yara Barros</td>
+                    <td>02145896312</td>
+                    <td>212152</td>
+                    <td>2520-3012</td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:confirmacao('Yara Barros')"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+                <tr>
+                    <td>Ana Braga</td>
+                    <td>02145896312</td>
+                    <td>212152</td>
+                    <td>2520-3012</td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:confirmacao('Ana Braga')"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+                <tr>
+                    <td>Fábio Araújo</td>
+                    <td>02145896312</td>
+                    <td>2563987</td>
+                    <td>2520-3012</td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:confirmacao('Fábio Araújo')"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <div>
+        <button  type="button" class="voltar"><a href="#"><img src="/view/telahome/image/voltar.png"></a></button> 
+        <button  type="button" class="avancar"><a href="#"><img src="/view/telahome/image/avancar.png"></a></button> 
+    </div>
+</body>
+</html>

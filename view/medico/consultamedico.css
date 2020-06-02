@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    background-color:rgb(201, 201, 201);
+    width: 43%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    outline: none;
+}
+input.crm{
+    background-color:rgb(201, 201, 201);
+    width: 43%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 90px;
+    left: 5%;
+    outline: none;
+}
+label{
+    position: absolute;
+    top: 30px;
+    color: rgb(51, 49, 49);   
+}
+button.pesquisar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 75%;
+    top: 40px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+button.novo{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 75%;
+    top: 40px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+table, th, td{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(201, 201, 201);
+    color:rgba(34, 48, 51, 0.842);  
+}
+
+td{
+    padding: 10px;
+    width: 250px;
+}
+th{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.table{
+    
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+.edicao{
+    width: 3%;
+}
+.tamanho{
+    width: 10%;
+}
+.voltar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 45%;
+    top: 500px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+.avancar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 45%;
+    top: 500px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842);  
+}

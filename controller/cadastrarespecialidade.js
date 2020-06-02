@@ -11,4 +11,5 @@ function salvar(){
     document.getElementById("frmcadastrarespecialidade").action = "#";
     document.getElementById("frmcadastrarespecialidade").submit();
     window.alert('Especialidade foi salva com sucesso!')
+    return true;
 }
