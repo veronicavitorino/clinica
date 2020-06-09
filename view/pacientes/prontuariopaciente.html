@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontuário do Paciente</title>
+    <link rel="stylesheet" href="/utilities/font.css">
+    <link rel="stylesheet" href="/view/pacientes/prontuariopaciente.css">
+    <script src="/controller/prontuariopaciente.js"></script>
+</head>
+<body>
+    <div id="label">
+        <label>
+            <h2>Nome:</h2>
+            <br><br>
+            <h2>CPF:</h2>
+        </label>
+        <label type="text" name="nome" id="nome">Veronica</label>
+        <label  type="text" name="cpf" id="cpf">123654789</label>
+    </div>
+    <div>
+        <button  type="button" id="acao"  onclick="javascript:voltar()">Voltar</button> 
+    <form id="fichapaciente">
+        <div class="tabela">
+            <table id="grid">
+                <tr >
+                    <th id="padrao">Médico(a)</th>  
+                    <th id="padrao">Especialidade</th>  
+                    <th id="padrao">Data Consulta</th> 
+                    <th id="maior">Descrição Prontuário</th>
+                    <th id="menor">Detalhar</th>
+                    <th id="menor">Cancelar</th>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>Dra.Ruth</td>
+                    <td>Dermatologista</td>
+                    <td>01/06/2020</td>
+                    <td>Alergia</td>
+                    <td><a href="javascript:func()" onclick="javascript:editar()"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:excluir()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+                <tr>
+                    <td>Dra.Carina</td>
+                    <td>Ginecologista</td>
+                    <td>05/06/2020</td>
+                    <td>Gestação</td>
+                    <td><a href="javascript:func()" onclick="javascript:editar()"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:excluir()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+                <tr>
+                    <td>Dr. João</td>
+                    <td>Clínico Geral</td>
+                    <td>06/06/2020</td>
+                    <td>Rotina</td>
+                    <td><a href="javascript:func()" onclick="javascript:editar()"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:excluir()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+                <tr>
+                    <td>Dr.Genival</td>
+                    <td>Urologista</td>
+                    <td>07/06/2020</td>
+                    <td>Exames</td>
+                    <td><a href="javascript:func()" onclick="javascript:editar()"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:excluir()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                </tr>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhamento Prontuário do Paciente</title>
+    <link rel="stylesheet" href="/utilities/font.css">
+    <link rel="stylesheet" href="/view/pacientes/detalheprontuario.css">
+    <script src="/controller/detalheprontuario.js"></script>
+</head>
+<body>
+<form id="detalheprontuario">
+    <div>
+        <label class="esquerda" required>
+            <h3>Médico:</h3>
+            <br><br>
+            <h3>Data:</h3>
+            <br><br>
+            <h3>Paciente:</h3>
+        </label>
+        <label class="direita">
+            <h3>CRM:</h3>
+            <br><br>
+            <h3 id="CPF">CPF:</h3>
+        </label>
+        <input type="text" name="medico" id="medico" disabled="true" value="Dr.João Benedito" >
+        <input type="text" name="data" id="data" disabled="true" value="09/06/2020">
+        <input type="text" name="pac" id="pac" disabled="true" value="José das Neves">
+        <input type="text" name="crm" id="crm" disabled="true" value="2589631">
+        <input type="text" name="cpf" id="cpf" disabled="true" value="26978544103">
+    </div>
+    <div>
+        <h3 id="desc">Descrição do Prontuário:</h3>
+        <h3 id="rec">Receita Médica:</h3>
+    </div>
+    <div>
+       <textarea name="descricao" id="descricao" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos est officia, quia blanditiis cupiditate eius iure eaque facere nisi quae! Eos, quasi! Molestiae doloremque eaque adipisci! Illo sint nisi labore.</textarea>
+       <textarea name="receita" id="receita" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos est officia, quia blanditiis cupiditate eius iure eaque facere nisi quae! Eos, quasi! Molestiae doloremque eaque adipisci! Illo sint nisi labore.</textarea>
+    </div>
+    <div>
+        <button  type="button" id="imprimir" name="imprimir" value="imprimir" onclick="window.print()">Imprimir Receita</button>
+        <button  type="button" id="voltar"  onclick="javascript:volt()">Voltar</button> 
+    </div>
+</form>
+</body>
+</html>

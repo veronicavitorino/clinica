@@ -29,13 +29,17 @@ body{
     margin-bottom: 10px;
 }
 .card-group > button{
-    background-color: rgb(201, 201, 201);
-    width: 50%;
-    border-radius: 10px;
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 25%;
+    top: 10px;
+    outline: none;
+    border-radius: 20px;
     padding: 10px;
-    outline: 0;
-    border: 0px;
-    float: auto;
+    width: 180px;
+    color:rgba(34, 48, 51, 0.842); 
+    
+    
 }
 .card-group > label{
     width: 100%;

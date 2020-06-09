@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Ficha do Paciente</title>
+    <link rel="stylesheet" href="/view/pacientes/fichapaciente.css">
+    <link rel="stylesheet" href="/utilities/font.css">
+    <script src="/controller/fichapaciente.js"></script>
+</head>
+<body>
+    <div id="label">
+        <label>
+            <h3>Nome:</h3>
+            <br><br>
+            <h3>CPF:</h3>
+        </label>
+        <input type="text" name="nome">
+        <input id="cpf" type="text" name="cpf">
+    </div>
+    <div>
+        <button  type="button" id="pesquisar">Pesquisar</button> 
+        <button type="button" id="novo" onclick="javascript:novo()" >Novo</button>
+    <form id="fichapaciente">
+        <div class="tabela">
+            <table id="grid">
+                <tr >
+                    <th id="nome">Nome</th>  
+                    <th id="padrao">CPF</th>  
+                    <th id="padrao">Telefone</th> 
+                    <th id="padrao">Convênio</th>
+                    <th id="menor">Editar</th>
+                    <th id="menor">Excluir</th>
+                    <th id="menor">Prontuário</th>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:acao()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                    <td><a href="javascript:func()" onclick="javascript:pront()"><img src="/view/telahome/image/document.png" alt="Prontuario"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:acao()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                    <td><a href="javascript:func()" onclick="javascript:pront()"><img src="/view/telahome/image/document.png" alt="Prontuario"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:acao()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                    <td><a href="javascript:func()" onclick="javascript:pront()"><img src="/view/telahome/image/document.png" alt="Prontuario"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#"><img src="/view/telahome/image/edit.png" alt="Editar"></td>
+                    <td><a href="javascript:func()" onclick="javascript:acao()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+                    <td><a href="javascript:func()" onclick="javascript:pront()"><img src="/view/telahome/image/document.png" alt="Prontuario"></td>
+                </tr>
+
+            </table>
+
+        </div>
+    </form>
+    
+</body>
+</html>

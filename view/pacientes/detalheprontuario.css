@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+label.esquerda{
+    position: absolute;
+    top: 30px;
+    color: rgb(51, 49, 49); 
+    left: 3%;
+  
+}
+label.direita{
+    position: absolute;
+    top: 35px;
+    color: rgb(51, 49, 49); 
+    left: 55%;
+}
+#CPF{
+    position: absolute;
+    top: 110px;
+    color: rgb(51, 49, 49); 
+    left: 10%;
+}
+#medico{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 20px;
+    left: 8%;
+    outline: none;
+}
+#data{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 80px;
+    left: 8%;
+    outline: none;
+}
+#pac{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 135px;
+    left: 8%;
+    outline: none;
+}
+#crm{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 20px;
+    left: 59%;
+    outline: none; 
+}
+#cpf{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 130px;
+    left: 59%;
+    outline: none;
+}
+#desc{
+    position: absolute;
+    top: 200px;
+    color: rgb(51, 49, 49);
+    left: 3%;
+}
+
+#receita{
+    position: absolute;
+    top: 100px;
+    color: rgb(51, 49, 49);
+    left: 0%;
+}
+#descricao{
+    background-color:rgb(201, 201, 201);
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 225px;
+    left: 3%;
+    outline: none;
+    height: 90px;
+
+}
+#receita{
+    background-color:rgb(201, 201, 201);
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 365px;
+    left: 3%;
+    outline: none;
+    height: 140px;
+}
+#rec{
+    position: absolute;
+    top: 340px;
+    color: rgb(51, 49, 49);
+    left: 3%;
+}
+#imprimir{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 75%;
+    top: 570px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);
+}
+#voltar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 75%;
+    top: 570px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);
+}

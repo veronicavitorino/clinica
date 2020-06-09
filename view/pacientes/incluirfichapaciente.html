@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incluir Ficha do Paciente</title>
+    <link rel="stylesheet" href="/view/pacientes/incluirfichapaciente.css">
+    <link rel="stylesheet" href="/utilities/font.css">
+    <script src="/controller/incluirfichapaciente.js"></script>
+</head>
+<body>
+<form id="incluirpaciente">
+    <div>
+        <label>
+            <h2>Nome:</h2>
+            <br><br>
+            <h2>CPF:</h2>
+            <br><br>
+            <h2>Nascimento:</h2>
+            <br><br>
+            <h2>Telefone:</h2>
+            <br><br>
+            <h2>Convênio:</h2>
+        </label>
+        <input  type="text" name="nome" id="nome" >
+        <input  type="text" name="cpf" id="cpf">
+        <input  type="text" name="nasc" id="nasc">
+        <input  type="text" name="telefone" id="tel">
+        <select class="plano">
+            <option>Unimed</option>
+            <option>Amil</option>
+            <option>Em Vida</option>
+            <option>Premium</option> 
+        </select>
+    </div>
+    <div>
+        <button type="button" class="footer" onclick="javascript:visualizar()">Prontuário</button> 
+        <button type="button" class="footer">Novo Convênio</button> 
+        <button type="button" class="footer" onclick="javascript:salvar()">Salvar</button> 
+
+    </div>
+</form>
+</body>
+</html>
