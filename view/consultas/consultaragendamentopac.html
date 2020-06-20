@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Agendamento Paciente</title>
+    <link rel="stylesheet" href="/utilities/font.css">
+    <link rel="stylesheet" href="/view/consultas/consultaragendamento.css">
+    <script src="/controller/consultaragendamentopac.js"></script>
+</head>
+<body>
+    <form id="consultaragendamento">
+        <div>
+         <label id="esquerda">
+           <h2>Paciente:</h2>
+           <br>
+           <h2>Medico:</h2>
+         </label>
+         <label id="direita">
+           <h2>Data:</h2>
+         </label>
+         <input type="text" name="paciente" id="paciente" disabled="true" value="Ântonio Moura">
+        <!--<select id="paciente">
+            <option>Selecione</option>
+            <option>Astolfo da Silva - 06258967425</option>
+            <option>José Eduardo - 15263987456</option>
+            <option>Maria Flores - 25896311478</option>
+            <input id="date" type="date">
+        </select>-->
+        <input id="date" type="date">
+        <select id="medico" onchange="javascript:selecionarmedico('medico')">
+            <option value="">Selecione</option>
+            <option value="">Dr.José Renato - 215263</option>
+            <option value="">Dr.Vicente de Sá - 152639</option>
+            <option value="">Dr.Frederico Bomfim - 258963</option>
+        </select>
+        <button  type="button" id="consultar" onclick="javascript:selecionar()">Consultar</button>
+        <button  type="button" id="nconsulta" onclick="javascript:buscar()">Nova Consulta</button>
+         <div id="tabela">
+            <table id="grid">
+            <tr >
+                <th id="padrao">Data/Hora Consulta</th>  
+                <th id="padrao">Especialidade</th>  
+                <th id="padrao">Médico</th> 
+                <th id="menor">Cancelar</th>
+            </tr>
+            <tr>
+                <td>18/06/2020 - 14:30</td>
+                <td>Cardiologista</td>
+                <td>Dr.José Flores</td>
+                <td><a href="javascript:func()" onclick="javascript:acao()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+            </tr>
+            <tr>
+                <td>17/06/2020 - 09:30</td>
+                <td>Urologista</td>
+                <td>Dr.vicente de Sá</td>
+                <td><a href="javascript:func()" onclick="javascript:acao()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+            </tr>
+            <tr>
+                <td>16/06/2020 - 10:30</td>
+                <td>Dermatologista</td>
+                <td>Dr.Frederico Bomfim</td>
+                <td><a href="javascript:func()" onclick="javascript:acao()"><img src="/view/telahome/image/delete.png" alt="Excluir"></td>
+            </tr>
+            <!--<tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>-->
+        </table>
+         </div>
+         <div>
+            <button  type="button" class="voltar"><a href="#"><img src="/view/telahome/image/voltar.png"></a></button> 
+            <button  type="button" class="avancar"><a href="#"><img src="/view/telahome/image/avancar.png"></a></button> 
+        </div>
+        </div>
+        
+    </form>
+</body>
+</html>

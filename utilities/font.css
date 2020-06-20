@@ -40,3 +40,11 @@ div.footer{
     font-size: 15px;
     color: rgb(51, 49, 49);
 }
+h2#pac{
+    color: rgb(51, 49, 49);
+    font-family:'Times New Roman', Times, serif;
+}
+h2#cpf{
+    color: rgb(51, 49, 49);
+    font-family:'Times New Roman', Times, serif;
+}

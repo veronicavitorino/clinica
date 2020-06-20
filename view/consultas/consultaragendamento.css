@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+label#esquerda{
+    position: absolute;
+    top: 30px;
+    color: rgb(51, 49, 49); 
+    left: 20px;
+  
+}
+label#direita{
+    position: absolute;
+    top: 35px;
+    color: rgb(51, 49, 49);
+    left: 55%;
+}
+select#paciente{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 25px;
+    left: 12%;
+    outline: none;
+}
+select#medico{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 70px;
+    left: 12%;
+    outline: none;
+}
+#consultar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 85%;
+    top: 30px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);  
+
+}
+#nconsulta{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 75%;
+    top: 90px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+table, th, td{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(201, 201, 201);
+    color:rgba(34, 48, 51, 0.842);  
+}
+#tabela{
+    position: absolute;
+    top: 25%;
+    width: 98%;
+    left: 1%;
+}
+#padrao{
+    width: 10%;
+}
+#menor{
+    width: 3%;
+}
+
+td{
+    padding: 10px;
+    width: 250px;
+}
+th{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+#date{
+    background-color:rgb(201, 201, 201);
+    width: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 30px;
+    left: 60%;
+    outline: none;
+}
+input#paciente{
+    background-color:rgb(201, 201, 210);
+    width: 29%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 30px;
+    left: 12%;
+    outline: none;
+}
+.voltar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 45%;
+    top: 500px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+.avancar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 45%;
+    top: 500px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color:rgba(34, 48, 51, 0.842);  
+}

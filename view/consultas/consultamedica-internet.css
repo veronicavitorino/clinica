@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#topo{
+    position: relative;
+    top: 40px;
+    border: solid rgb(201,201, 201);
+    padding: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+label#esque{
+    position: absolute;
+    top: 25px;
+    color: rgb(51, 49, 49); 
+    left: 20px;
+}
+label#dire{
+    position: absolute;
+    top: 25px;
+    color: rgb(51, 49, 49);
+    left: 55%;
+}
+input#paciente{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 25px;
+    left: 8%;
+    outline: none;
+}
+input#cpf{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 25px;
+    left: 60%;
+    outline: none;
+}
+label#msd{
+    position: absolute;
+    top: 200px;
+    color: rgb(51, 49, 49); 
+    left: 20px;
+}
+label#ch{
+    position: absolute;
+    top: 200px;
+    color: rgb(51, 49, 49);
+    left: 55%;
+}
+select#medico{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 190px;
+    left: 12%;
+    outline: none;
+}
+select#especialidade{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 240px;
+    left: 12%;
+    outline: none;
+}
+select#data{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 290px;
+    left: 12%;
+    outline: none;
+
+}
+select#horario{
+    background-color:rgb(201, 201, 201);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 290px;
+    left: 62%;
+    outline: none;
+}
+#crm{
+    background-color:rgb(201, 201, 201);
+    width: 29%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    float: auto;
+    position: absolute;
+    top: 190px;
+    left: 62%;
+    outline: none;
+}
+#selecionar{
+    background-color: rgb(201, 201, 201);;
+    position: relative;
+    left: 65%;
+    top: 350px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color:rgba(34, 48, 51, 0.842);  
+}
+
+
+
